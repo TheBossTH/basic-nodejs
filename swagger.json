@@ -1,0 +1,20 @@
+{
+    "swagger":"2.0",
+    "title": "basic-express",
+    "version": "1.0.0",
+    "description": "basic express",
+    "host": "localhost:8080",
+    "basePath": "/api/v1",
+    "tags":[{
+        "name": "users"
+    }],
+    "scheme": ["http"],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ]
+    
+    
+}
