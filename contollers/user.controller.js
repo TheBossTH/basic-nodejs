@@ -9,11 +9,13 @@ export const Login = (req, res) => {
     // const {username,password} = req.query
     // const {username,password} = req.params
     const {username,password} = req.body
-    const newPass = `${password}-onepoint`
+    // const newPass = `${password}-onepoint`
+    console.log("username : " + username + " password : " + password)
     res.json({
         username,
-        password,newPass
+        password
     })
+    
 }
 
 let datauser = [];
